@@ -6,6 +6,9 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b border-[#141414] pb-8">
           <div>
+            <div className="text-[10px] font-display tracking-widest text-[#CC0000] uppercase font-bold mb-1">
+              GENZ CLASSICIST · ROOTED IN RIYAAZ · TRADITION IN MOTION
+            </div>
             <div className="flex items-center gap-2 mb-1">
               <span className="font-display text-2xl font-bold tracking-wider text-white">
                 BARNIK BASU

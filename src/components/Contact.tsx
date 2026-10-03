@@ -70,10 +70,14 @@ export const Contact: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-12">
-          <div className="flex items-center gap-2 mb-2">
+          <div className="flex flex-wrap items-center gap-2 mb-2">
             <span className="w-2.5 h-2.5 bg-[#CC0000]" />
             <span className="text-xs font-display tracking-widest text-[#888888] uppercase">
               REPRESENTATIVE ENQUIRIES // CONCERT BOOKINGS
+            </span>
+            <span className="text-[#444444] hidden sm:inline">▪</span>
+            <span className="text-xs font-display tracking-widest text-[#CCCCCC] uppercase font-semibold">
+              RECITALS · SABHAS · COLLABORATIONS
             </span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white uppercase mb-2">

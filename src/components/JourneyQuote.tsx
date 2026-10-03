@@ -6,11 +6,16 @@ export const JourneyQuote: React.FC = () => {
     <section className="py-16 sm:py-20 bg-[#070707] border-b border-[#222222]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-3 mb-2">
           <span className="w-2.5 h-2.5 bg-[#CC0000]" />
           <span className="text-xs font-display tracking-widest text-[#999999] uppercase">
             PHILOSOPHY // ARTISTIC CREED
           </span>
+        </div>
+
+        {/* Contemporary Editorial Kicker */}
+        <div className="text-[11px] font-display tracking-widest text-[#CC0000] uppercase font-bold mb-1">
+          RIYAAZ & RESONANCE
         </div>
 
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-8">
@@ -38,7 +43,7 @@ export const JourneyQuote: React.FC = () => {
           <div className="bg-black border border-[#1f1f1f] p-6 hover:border-[#CC0000] transition-colors">
             <div className="flex items-center justify-between mb-4">
               <span className="font-display text-xs tracking-widest text-[#CC0000] font-bold">
-                01. SĀDHANĀ
+                01 · RIYAAZ MODE // SĀDHANĀ
               </span>
               <span className="w-1.5 h-1.5 bg-[#444444]" />
             </div>

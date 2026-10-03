@@ -9,11 +9,14 @@ export const Awards: React.FC = () => {
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-2 mb-1.5">
               <span className="w-2.5 h-2.5 bg-[#CC0000]" />
               <span className="text-xs font-display tracking-widest text-[#888888] uppercase">
                 HONORS & RECOGNITION // VERIFIED CITATIONS
               </span>
+            </div>
+            <div className="text-[11px] font-display tracking-widest text-[#CC0000] uppercase font-bold mb-1">
+              CLASSICAL, UNBOUND
             </div>
             <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white uppercase">
               AWARDS & ACHIEVEMENTS

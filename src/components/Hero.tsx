@@ -35,9 +35,14 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
             </span>
           </div>
 
-          <div className="flex items-center gap-2 text-xs font-display tracking-widest text-[#CCCCCC] bg-[#121212]/90 border border-[#2a2a2a] px-3 py-1">
-            <Award className="w-3.5 h-3.5 text-[#CC0000]" />
-            <span>JUNIOR SCHOLAR — ITC SANGEET RESEARCH ACADEMY</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="flex items-center gap-2 text-xs font-display tracking-widest text-[#CCCCCC] bg-[#121212]/90 border border-[#2a2a2a] px-3 py-1">
+              <Award className="w-3.5 h-3.5 text-[#CC0000]" />
+              <span>JUNIOR SCHOLAR — ITC SANGEET RESEARCH ACADEMY</span>
+            </div>
+            <div className="hidden md:inline-flex text-[11px] font-display tracking-widest text-[#888888] bg-[#0d0d0d] border border-[#222222] px-2.5 py-1 uppercase">
+              ROOTED IN RIYAAZ · MOVING WITH TRADITION
+            </div>
           </div>
         </div>
 
@@ -50,12 +55,19 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
             BARNIK BASU
           </h1>
 
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-base sm:text-xl tracking-wider text-[#E0E0E0] uppercase font-medium mb-6">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-base sm:text-xl tracking-wider text-[#E0E0E0] uppercase font-medium mb-3">
             <span>SARODIST</span>
             <span className="text-[#CC0000]">▪</span>
             <span>HINDUSTANI CLASSICAL MUSIC</span>
             <span className="text-[#CC0000]">▪</span>
             <span>KOLKATA, INDIA</span>
+          </div>
+
+          {/* Contemporary Editorial Micro-Label */}
+          <div className="inline-flex items-center gap-2 text-[11px] font-display tracking-widest text-[#CC0000] uppercase font-semibold border-l-2 border-[#CC0000] pl-2.5 mb-6">
+            <span>GENZ CLASSICIST</span>
+            <span className="text-[#444444]">/</span>
+            <span className="text-[#888888]">SENIA-SHAHJAHANPUR GHARANA</span>
           </div>
 
           <p className="font-body text-sm sm:text-base text-[#AAAAAA] max-w-2xl leading-relaxed mb-8">

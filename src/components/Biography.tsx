@@ -11,6 +11,9 @@ export const Biography: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-10">
+          <div className="text-[11px] font-display tracking-widest text-[#CC0000] uppercase font-bold mb-1">
+            ROOTED IN RIYAAZ
+          </div>
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="w-2 h-2 bg-[#CC0000]"></span>
             <span className="text-xs font-display tracking-widest text-[#888888] uppercase">
@@ -160,8 +163,13 @@ export const Biography: React.FC = () => {
             <div className="lg:col-span-4">
               <div className="bg-[#0e0e0e] border border-[#222222] p-6 space-y-6">
                 <div className="flex items-center justify-between border-b border-[#222222] pb-4">
-                  <div className="font-display text-xs tracking-widest text-white font-bold uppercase">
-                    OFFICIAL DOSSIER
+                  <div>
+                    <div className="text-[10px] font-display tracking-widest text-[#CC0000] uppercase font-bold">
+                      RAGA CODED
+                    </div>
+                    <div className="font-display text-xs tracking-widest text-white font-bold uppercase">
+                      OFFICIAL DOSSIER
+                    </div>
                   </div>
                   <span className="bg-[#CC0000] text-white text-[10px] font-display font-semibold tracking-wider px-2 py-0.5">
                     VERIFIED
@@ -234,6 +242,16 @@ export const Biography: React.FC = () => {
         {/* ================= TAB 2: GURUS ================= */}
         {activeTab === 'gurus' && (
           <div className="space-y-12">
+            {/* Contemporary Editorial Line */}
+            <div className="flex flex-wrap items-center justify-between border-b border-[#1c1c1c] pb-3 gap-2">
+              <div className="text-xs font-display tracking-widest text-[#CC0000] uppercase font-bold">
+                YOUNG SARODIA · GURU-SHISHYA PARAMPARA
+              </div>
+              <div className="text-xs font-display tracking-widest text-[#888888] uppercase">
+                FOUNDATIONAL & ADVANCED TALEEM
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
               {/* Guru 01 */}
               <div className="bg-[#0a0a0a] border border-[#222222] p-6 sm:p-8 flex flex-col justify-between hover:border-[#CC0000] transition-colors">
@@ -349,7 +367,7 @@ export const Biography: React.FC = () => {
               <div className="flex items-center gap-2 mb-3">
                 <span className="w-2.5 h-2.5 bg-[#CC0000]" />
                 <span className="text-xs font-display tracking-widest text-[#888888] uppercase">
-                  PARAMPARA // FOUNDATION & TRANSFORMATION
+                  TRADITION IN MOTION // FOUNDATION & TRANSFORMATION
                 </span>
               </div>
               <h3 className="font-display text-2xl sm:text-3xl font-bold text-white uppercase mb-4">
@@ -395,7 +413,7 @@ export const Biography: React.FC = () => {
                   <div className="flex items-center gap-2 mb-2">
                     <span className="w-2.5 h-2.5 bg-[#CC0000]" />
                     <span className="text-xs font-display tracking-widest text-[#CC0000] uppercase font-bold">
-                      INSTITUTIONAL HERITAGE // EST. 1977 · KOLKATA
+                      TRADITION IN MOTION // INSTITUTIONAL HERITAGE · EST. 1977 · KOLKATA
                     </span>
                   </div>
                   <h3 className="font-display text-3xl sm:text-4xl text-white font-bold tracking-wide uppercase mb-1">
