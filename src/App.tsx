@@ -15,6 +15,31 @@ import { BackToTop } from './components/BackToTop';
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
 
+  // Handle initial page load / refresh: always start at the top unless explicit section hash exists
+  useEffect(() => {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+
+    const hash = window.location.hash ? window.location.hash.substring(1) : '';
+    if (hash && hash !== 'home') {
+      const targetElement = document.getElementById(hash);
+      if (targetElement) {
+        const yOffset = -70;
+        const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, left: 0, behavior: 'auto' });
+        setActiveSection(hash);
+        return;
+      }
+    }
+
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto',
+    });
+  }, []);
+
   useEffect(() => {
     const sectionIds = ['home', 'biography', 'awards', 'videos', 'photos', 'contact'];
     

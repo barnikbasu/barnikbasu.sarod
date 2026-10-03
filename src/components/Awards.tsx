@@ -114,7 +114,7 @@ export const Awards: React.FC = () => {
               </div>
               <div className="bg-black border border-[#1f1f1f] p-3 flex items-center gap-2.5">
                 <CheckCircle2 className="w-4 h-4 text-[#CC0000] shrink-0" />
-                <span className="text-[#CCCCCC]">Full-Time ITC SRA Residential Scholar</span>
+                <span className="text-[#CCCCCC]">Junior Scholar · ITC Sangeet Research Academy</span>
               </div>
             </div>
           </div>
