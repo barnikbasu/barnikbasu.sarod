@@ -36,7 +36,7 @@ export const Awards: React.FC = () => {
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-3 left-3 bg-[#CC0000] text-white font-display text-[10px] tracking-widest px-2.5 py-1 uppercase font-bold">
-                MAIHAR GHARANA HERITAGE
+                CLASSICAL SAROD HERITAGE
               </div>
             </div>
 
@@ -45,7 +45,7 @@ export const Awards: React.FC = () => {
                 KOLKATA HERITAGE BAITHAK
               </div>
               <p className="font-body text-xs text-[#888888] leading-relaxed">
-                25-string Maihar Sarod resting before an acoustic sabha session. Handcrafted teakwood resonator and mirror-finished steel fingerboard attuned to kharoj-pancham.
+                25-string classical Sarod resting before an acoustic sabha session. Handcrafted teakwood resonator and mirror-finished steel fingerboard attuned to kharoj-pancham.
               </p>
             </div>
           </div>

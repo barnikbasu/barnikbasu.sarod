@@ -31,7 +31,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
               OFFICIAL MONOGRAPH // 2026
             </span>
             <span className="hidden sm:inline-block text-xs font-display tracking-widest text-[#AAAAAA]">
-              KOLKATA, INDIA · SENIA MAIHAR GHARANA
+              KOLKATA, INDIA · SENIA SHAHJAHANPUR GHARANA
             </span>
           </div>
 
@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
           </div>
 
           <p className="font-body text-sm sm:text-base text-[#AAAAAA] max-w-2xl leading-relaxed mb-8">
-            Steeped in rigorous classical riyaaz and the sacred guru-shishya parampara, Barnik Basu explores the deep resonance, vocal nuances, and intricate tantrakari of the Senia-Maihar gharana under the guidance of ITC SRA Gurus.
+            Steeped in rigorous classical riyaaz and the sacred guru-shishya parampara, Barnik Basu explores the deep resonance, vocal nuances, and intricate tantrakari of the Senia-Shahjahanpur gharana under the guidance of his Guru, Shri Abir Hussain, at ITC Sangeet Research Academy.
           </p>
 
           {/* Action CTAs */}
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
 
           <div className="border-l-2 border-[#333333] pl-3">
             <div className="text-[10px] font-display tracking-widest text-[#777777] uppercase">LINEAGE</div>
-            <div className="font-display text-sm text-white tracking-wide">SENIA MAIHAR GHARANA</div>
+            <div className="font-display text-sm text-white tracking-wide">SENIA SHAHJAHANPUR GHARANA</div>
           </div>
 
           <div className="flex items-center justify-start md:justify-end gap-2 text-[#888888] font-display text-xs tracking-widest">

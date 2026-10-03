@@ -61,7 +61,7 @@ export const JourneyQuote: React.FC = () => {
               GRAVITAS & EXPOSITION
             </h3>
             <p className="font-body text-xs sm:text-sm text-[#999999] leading-relaxed">
-              Unfolding meditative alap, expansive meend-glides across notes, and vocal phrasing in the authentic monumental style of the Senia-Maihar parampara.
+              Unfolding meditative alap, expansive meend-glides across notes, and vocal phrasing shaped through the living Guru-Shishya tradition of the Senia-Shahjahanpur Gharana.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export const JourneyQuote: React.FC = () => {
           </div>
           <div>
             <div className="text-[10px] font-display tracking-widest text-[#666666] uppercase">HERITAGE</div>
-            <div className="font-display text-xs sm:text-sm text-white font-semibold tracking-wider">SENIA MAIHAR</div>
+            <div className="font-display text-xs sm:text-sm text-white font-semibold tracking-wider">SENIA SHAHJAHANPUR</div>
           </div>
           <div>
             <div className="text-[10px] font-display tracking-widest text-[#666666] uppercase">TRADITION</div>

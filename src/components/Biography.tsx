@@ -176,7 +176,7 @@ export const Biography: React.FC = () => {
 
                   <div>
                     <div className="text-[10px] text-[#666666] uppercase mb-0.5">GHARANA / LINEAGE</div>
-                    <div className="text-white font-semibold">SENIA MAIHAR PARAMPARA</div>
+                    <div className="text-white font-semibold">SENIA SHAHJAHANPUR GHARANA</div>
                   </div>
 
                   <div>

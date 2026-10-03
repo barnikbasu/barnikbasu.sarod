@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-[#CC0000]">▪</span>
-            <span className="uppercase">SENIA MAIHAR GHARANA TRADITION</span>
+            <span className="uppercase">SENIA SHAHJAHANPUR GHARANA TRADITION</span>
           </div>
         </div>
       </div>
