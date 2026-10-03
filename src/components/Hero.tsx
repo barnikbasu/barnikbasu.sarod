@@ -15,12 +15,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreBio, onWatchVideos }) => {
         <img
           src={IMAGES.hero}
           alt="Barnik Basu Sarod Recital"
-          className="w-full h-full object-cover object-center opacity-35 filter grayscale contrast-125"
+          className="w-full h-full object-cover object-center opacity-35 grayscale transition-all duration-500 ease-out hover:grayscale-0"
           referrerPolicy="no-referrer"
         />
         {/* Editorial Gradients & Scrims */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/60" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/60 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent pointer-events-none" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

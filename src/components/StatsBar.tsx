@@ -24,7 +24,7 @@ export const StatsBar: React.FC = () => {
               1ST
             </div>
             <div className="font-display text-xs font-semibold text-[#CCCCCC] tracking-widest uppercase mt-1">
-              IIT MADRAS NATIONAL PRIZE
+              Vibe in Savaan 25, IIT Madras
             </div>
             <div className="text-[11px] text-[#777777] font-body mt-0.5">
               Winner — Instrumentals Category
@@ -37,10 +37,10 @@ export const StatsBar: React.FC = () => {
               ITC SRA
             </div>
             <div className="font-display text-xs font-semibold text-[#CCCCCC] tracking-widest uppercase mt-1">
-              JUNIOR SCHOLAR (2026)
+              Junior Scholar
             </div>
             <div className="text-[11px] text-[#777777] font-body mt-0.5">
-              Sangeet Research Academy
+              ITC Sangeet Research Academy
             </div>
           </div>
 
@@ -53,7 +53,7 @@ export const StatsBar: React.FC = () => {
               SCHOLASTIC RIGOR
             </div>
             <div className="text-[11px] text-[#777777] font-body mt-0.5">
-              JEE 2025 · IIIT Kalyani CSE
+              Joint Entrance Examination 2025
             </div>
           </div>
         </div>

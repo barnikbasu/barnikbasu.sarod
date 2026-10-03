@@ -80,7 +80,7 @@ export const PhotoLightbox: React.FC<PhotoLightboxProps> = ({
           <img
             src={photo.src}
             alt={photo.title}
-            className="w-full h-full object-contain filter grayscale contrast-125"
+            className="w-full h-full object-contain grayscale transition-all duration-500 ease-out hover:grayscale-0"
             referrerPolicy="no-referrer"
           />
 

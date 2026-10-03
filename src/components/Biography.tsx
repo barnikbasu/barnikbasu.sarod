@@ -248,7 +248,7 @@ export const Biography: React.FC = () => {
                     <img
                       src={IMAGES.guruDiptesh}
                       alt="Shri Diptesh Bhattacharya"
-                      className="w-full h-full object-cover filter grayscale contrast-125"
+                      className="w-full h-full object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0 hover:grayscale-0"
                       referrerPolicy="no-referrer"
                     />
                   </div>
@@ -299,7 +299,7 @@ export const Biography: React.FC = () => {
                     <img
                       src={IMAGES.guruAbir}
                       alt="Shri Abir Hussain"
-                      className="w-full h-full object-cover filter grayscale contrast-125"
+                      className="w-full h-full object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0 hover:grayscale-0"
                       referrerPolicy="no-referrer"
                     />
                   </div>

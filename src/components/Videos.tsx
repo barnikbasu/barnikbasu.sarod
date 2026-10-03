@@ -64,7 +64,7 @@ export const Videos: React.FC = () => {
             </h2>
           </div>
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/@barnik-basu"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 font-display text-xs tracking-widest text-[#AAAAAA] hover:text-[#CC0000] transition-colors border border-[#262626] px-3 py-1.5 self-start sm:self-end"

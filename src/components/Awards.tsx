@@ -27,12 +27,12 @@ export const Awards: React.FC = () => {
         {/* 2-Column Showcase */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           {/* Left Column: Visual Monument Frame */}
-          <div className="lg:col-span-5 bg-black border border-[#222222] p-4 flex flex-col justify-between">
+          <div className="lg:col-span-5 bg-black border border-[#222222] p-4 flex flex-col justify-between group">
             <div className="relative aspect-[4/3] bg-[#121212] overflow-hidden mb-4 border border-[#1a1a1a]">
               <img
                 src={IMAGES.awards}
                 alt="Sarod at Baithak Recital"
-                className="w-full h-full object-cover filter grayscale contrast-125"
+                className="w-full h-full object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0 hover:grayscale-0"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-3 left-3 bg-[#CC0000] text-white font-display text-[10px] tracking-widest px-2.5 py-1 uppercase font-bold">

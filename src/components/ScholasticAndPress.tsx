@@ -33,7 +33,7 @@ export const ScholasticAndPress: React.FC = () => {
                       B.Tech in Computer Science & Engineering · 2025–2029
                     </div>
                     <div className="text-[11px] text-[#777777] font-body mt-0.5">
-                      National Institute of Importance · Ongoing Undergraduate Degree
+                      Institute of National Importance
                     </div>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ export const ScholasticAndPress: React.FC = () => {
                       97.52 Percentile
                     </div>
                     <div className="text-[11px] text-[#777777] font-body mt-0.5">
-                      National Engineering Entrance Examination
+                      Among the top 2.5% of 1.5M+ registered candidates
                     </div>
                   </div>
                 </div>
@@ -70,8 +70,10 @@ export const ScholasticAndPress: React.FC = () => {
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-[#1a1a1a] text-[11px] font-display tracking-wider text-[#666666]">
-              IDENTITY: PRIMARY VOCATION IS SAROD CONCERTIST & JUNIOR SCHOLAR
+            <div className="mt-6 pt-4 border-t border-[#1a1a1a] text-[11px] font-display tracking-wider text-[#888888] space-y-0.5">
+              <div className="text-[#CC0000] font-bold uppercase tracking-widest text-[10px]">IDENTITY</div>
+              <div className="text-[#CCCCCC]">Primary vocation: Sarodist · Hindustani Classical Music</div>
+              <div className="text-[#888888]">Junior Scholar · Sarod · ITC Sangeet Research Academy</div>
             </div>
           </div>
 
