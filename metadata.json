@@ -1,0 +1,6 @@
+{
+  "name": "Barnik Basu — Sarodist",
+  "description": "Barnik Basu is a Sarod player from Kolkata and Junior Scholar at ITC Sangeet Research Academy, pursuing advanced training in Hindustani Classical Music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
