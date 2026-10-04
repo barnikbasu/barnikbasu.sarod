@@ -3,8 +3,8 @@ import heroRecital from './images/hero_sarod_recital_1791034234030.jpg';
 import awardsBaithak from './images/awards_heritage_baithak_1791034250485.jpg';
 import plateTechnique from './images/gallery_plate_technique_1791034263763.jpg';
 import plateRecital from './images/gallery_plate_recital_1791034276621.jpg';
-import guruDiptesh from './images/guru_diptesh_bhattacharya_1791034289732.jpg';
-import guruAbir from './images/guru_abir_hussain_1791034314064.jpg';
+import guruDiptesh from './images/guru_dipteshbhattacharya.jpg';
+import guruAbir from './images/guru_abirhussain.png';
 
 export const IMAGES = {
   hero: heroRecital,
